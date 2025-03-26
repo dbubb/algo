@@ -34,6 +34,7 @@ public class Task
    }
    
    // https://www.topcoder.com/thrive/articles/Binary%20Indexed%20Trees
+   // Не использовать индекс == 0 !!!
    public static class FenwickTree
    {
        private int[] tree;
